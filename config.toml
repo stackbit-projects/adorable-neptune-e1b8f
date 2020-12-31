@@ -1,0 +1,59 @@
+title = "Osprey Example Site"
+baseURL = ""
+tags = [ "portfolio", "web design", "blog" ]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "tomanistor"
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
+themesDir = "themes"
+publishDir = "public"
+
+[Params]
+tagline = "Osprey Example Site"
+author = "Toma Nistor"
+description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
+logoBig = "/images/osprey-logo.png"
+logoSmall = "/images/osprey-logo.png"
+favicon = "favicon.ico"
+opengraphImage = "/images/osprey.png"
+email = ""
+googleTagManger = ""
+customCSS = false
+twitter = "TomaNistor"
+linkedin = "tomanistor"
+github = "tomanistor"
+facebook = ""
+copyright = true
+credit = false
+cacheBustCSS = false
+cacheBustJS = false
+highlightJS = true
+highlightJSStyle = ""
+highlightJSScript = ""
+ajaxFormspree = false
+ajaxFormspreeGold = false
+ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
+lazyloading = true
+
+[[menu.main]]
+name = "About"
+url = "/#about"
+weight = 1
+
+[[menu.main]]
+name = "Work"
+url = "/#work"
+weight = 2
+
+[[menu.main]]
+name = "Blog"
+url = "/#blog"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/#contact"
+weight = 4
